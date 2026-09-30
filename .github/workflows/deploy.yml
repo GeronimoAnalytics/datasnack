@@ -22,10 +22,8 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 20
-      - name: Pages inschakelen en configureren
+      - name: Pages configureren
         uses: actions/configure-pages@v4
-        with:
-          enablement: true
       - name: Installeer dependencies
         working-directory: aaff-versie
         run: npm ci
