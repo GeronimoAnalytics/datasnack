@@ -1,0 +1,10 @@
+# Logs
+node_modules/
+dist/
+dist-embed/
+*.log
+npm-debug.log*
+
+# Editor
+.vscode/
+.DS_Store

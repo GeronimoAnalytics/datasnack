@@ -1,0 +1,22 @@
+{
+  "name": "you-draw-it-airco-effect-aaff",
+  "version": "1.0.0",
+  "description": "Interactieve 'You Draw It' datasnack over het zomerse airco-effect, in de huisstijl van aaff (React + D3.js + SVG).",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "build:embed": "vite build --config vite.embed.config.js",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "d3": "^7.9.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.4",
+    "vite": "^5.4.11",
+    "vite-plugin-singlefile": "^2.0.3"
+  }
+}
